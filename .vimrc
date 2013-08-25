@@ -56,6 +56,7 @@ endif
 
 " Use brighter colors if your xterm has a dark background.
 if &term =~ "xterm"
+  colorscheme desert
   set background=dark
 endif
 
